@@ -1,0 +1,96 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+
+# macOS
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# logs
+logs
+*.log
+
+# npm cache
+.npm
+
+# yarn cache
+yarn.lock
+
+# output of 'npm pack'
+*.tgz
+
+# coverage reports
+coverage/
+
+# build output
+build/
+dist/
+
+# temp files
+*.tmp
+*.temp
+
+# backup files
+*~
+*.bak
+
+# images cache
+.cache
+
+# system files
+Thumbs.db
+Desktop.ini
+
+# JetBrains IDEs
+.idea/
+
+# VS Code settings
+.vscode/
+
+# SASS cache
+.sass-cache/
+
+# next.js static export
+out/
