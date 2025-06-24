@@ -59,7 +59,7 @@ const projectLists: {
     content: (
       <a target="_blank" href="#"> {/* Link to be added later */}
         <Image
-          src={`${process.env.NEXT_PUBLIC_CLOUDFRONT_URL}/codedex-hackathon.jpeg`}
+          src="/codedex-hackathon.jpeg"
           alt="Sip n Play Cafe Website"
           width={500}
           height={500}
@@ -74,7 +74,7 @@ const projectLists: {
     content: (
       <a target="_blank" href="#">{ /*link to be added later*/ }
         <Image
-          src={`${process.env.NEXT_PUBLIC_CLOUDFRONT_URL}/Mine_Alliance.png`}
+          src="/Mine_Alliance.png"
           alt="Mine Alliance"
           loading="lazy"
           width={500}
@@ -90,7 +90,7 @@ const projectLists: {
     content: (
       <a target="_blank" href="#">{ /*link to be added later*/ }
         <Image
-          src={`${process.env.NEXT_PUBLIC_CLOUDFRONT_URL}/fiber.png`}
+          src="/fiber.png"
           alt="Fiber Project"
           loading="lazy"
           width={500}
