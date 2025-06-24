@@ -25,23 +25,23 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://luannguyen.net",
-    title: "Luan Nguyen | Software Engineer",
+    url: "https://aryan-portfolio-beta.vercel.app/",
+    title: "Aryan Kumar | Software Engineer",
     description:
       "Full-stack software engineer specializing in web development, AI/ML, and cloud solutions.",
-    siteName: "Luan Nguyen's Portfolio",
+    siteName: "Aryan Kumar's Portfolio",
     images: [
       {
         url: `/luan_aws.png`,
         width: 1200,
         height: 630,
-        alt: "Luan Nguyen Portfolio",
+        alt: "Aryan Kumar Portfolio",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Luan Nguyen | Software Engineer",
+    title: "Aryan Kumar | Software Engineer",
     description:
       "Full-stack software engineer specializing in web development, AI/ML, and cloud solutions.",
     images: [`/luan_aws.png`],
@@ -89,12 +89,12 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Person",
-              name: "Aryan kumar",
-              url: "https://luannguyen.net",
-              image: "https://luannguyen.net/luan_aws.png",
+              name: "Aryan Kumar",
+              url: "https://aryan-portfolio-beta.vercel.app/",
+              image: "https://aryan-portfolio-beta.vercel.app/aryan_kr.jpeg",
               sameAs: [
-                "https://www.linkedin.com/in/luanthiennguyen",
-                "https://github.com/LuaanNguyen",
+                "https://www.linkedin.com/in/aryankumar/",
+                "https://github.com/error-144",
               ],
               jobTitle: "Software Engineer",
               worksFor: {
