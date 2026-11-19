@@ -4,7 +4,7 @@ A modern, responsive portfolio website featuring a [Spotify](spotify.com)-inspir
 
 <img src="portfolio_highres.png" width="700"  alt="Portfolio Preview">
 
-## Built With 
+## Built With njddf
 
 - **Framework:** [Next.js 15](https://nextjs.org/)
 - **Language:** [TypeScript](https://www.typescriptlang.org/)
